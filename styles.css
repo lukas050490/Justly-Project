@@ -459,6 +459,7 @@ li a:hover {
 /* Botões de navegação */
 .prev,
 .next {
+    z-index: 99;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -553,7 +554,7 @@ li a:hover {
     border-top: 3px solid #c8b050;
     border-radius: 20px;
     margin: 10px 0;
-    width: 37%;
+    width: 55%;
 }
 
 
